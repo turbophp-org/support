@@ -1,0 +1,37 @@
+{
+  "name": "turbophp-org/support",
+  "description": "TurboPHP 框架支持库，提供工具函数、辅助方法和通用组件，简化开发流程并提高代码复用性。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "support",
+    "helper",
+    "utils",
+    "tool"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/support/issues",
+    "source": "https://github.com/turbophp-org/support",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/support/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\Support\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
